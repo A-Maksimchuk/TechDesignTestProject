@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2532234043270582964}
   - component: {fileID: 6801150649539741463}
   - component: {fileID: 5833673960773679575}
+  - component: {fileID: -8388672063475774684}
   m_Layer: 0
   m_Name: spineboy_character
   m_TagString: Untagged
@@ -124,3 +125,23 @@ MonoBehaviour:
   _animationName: idle
   loop: 1
   timeScale: 1
+--- !u!114 &-8388672063475774684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2387660094813223640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ad0309da144f4d88a78c28fbfcf56d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  freezeAxis:
+    X: 0
+    Y: 1
+    Z: 1
+  moveSpeed: 1
+  skeletonAnimation: {fileID: 5833673960773679575}
+  idleReferenceAsset: {fileID: 11400000, guid: de79219d7e324aa4a89381986e5413cf, type: 2}
+  runReferenceAsset: {fileID: 11400000, guid: 105178bb0dbb144479980b00fa71b1d9, type: 2}

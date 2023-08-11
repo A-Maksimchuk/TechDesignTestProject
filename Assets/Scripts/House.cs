@@ -6,6 +6,8 @@ public class House : MonoBehaviour
 {
     public void OnClicked()
     {
-        Container.Get<CameraMover>().MoveToPoint(transform.position);
+        Vector3 position = transform.position;
+        Container.Get<CameraMover>().MoveToPoint(position);
+        Container.Get<SpineCharacterController>().MoveToPoint(position);
     }
 }

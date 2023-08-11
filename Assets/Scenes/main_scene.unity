@@ -672,6 +672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainUI: {fileID: 8261268195753109552}
   cameraMover: {fileID: 519420033}
+  spineCharacterController: {fileID: 1180017500510023438}
 --- !u!4 &1095116648
 Transform:
   m_ObjectHideFlags: 0
@@ -1039,15 +1040,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8908418447593111712, guid: 5d4f98959c9f9aa418a216bb1a756c4d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.150797
+      value: -6.16
       objectReference: {fileID: 0}
     - target: {fileID: 8908418447593111712, guid: 5d4f98959c9f9aa418a216bb1a756c4d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.35823706
+      value: -2.28
       objectReference: {fileID: 0}
     - target: {fileID: 8908418447593111712, guid: 5d4f98959c9f9aa418a216bb1a756c4d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.0827924
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8908418447593111712, guid: 5d4f98959c9f9aa418a216bb1a756c4d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1084,6 +1085,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8908418447593111712, guid: 5d4f98959c9f9aa418a216bb1a756c4d, type: 3}
   m_PrefabInstance: {fileID: 1180017500510023436}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1180017500510023438 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8388672063475774684, guid: 5d4f98959c9f9aa418a216bb1a756c4d, type: 3}
+  m_PrefabInstance: {fileID: 1180017500510023436}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ad0309da144f4d88a78c28fbfcf56d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4142305451002256309
 PrefabInstance:
   m_ObjectHideFlags: 0
