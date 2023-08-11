@@ -1,5 +1,4 @@
 ﻿using Spine.Unity;
-using Spine.Unity.Examples;
 using UnityEngine;
 
 public class SpineCharacterController:MovableObject
